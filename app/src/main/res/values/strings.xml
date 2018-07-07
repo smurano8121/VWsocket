@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VirtualWindowController</string>
+    <string name="OFF">画面オフ</string>
+    <string name="Video">動画</string>
+    <string name="Live">ライブ動画</string>
+    <string name="Image">画像</string>
+    <string name="Change">hello</string>
+    <string name="World">world</string>
+</resources>
