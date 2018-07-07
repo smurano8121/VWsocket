@@ -44,8 +44,8 @@ public class Socketconect extends AsyncTask<String,Void,Void>{
            receivemessage = reader.readLine();
 
            //サーバからのメッセージ表示
-           Log.v("テスト", "["+sendmessage+"]これは送ったメッセージです終わり");
-           Log.v("テスト", "["+receivemessage+"]これはメッセージです終わり");
+           Log.v("テスト", "["+sendmessage+"]これは送信したメッセージです");
+           Log.v("テスト", "["+receivemessage+"]これは受信したメッセージです");
            socket.close();
            return null;
        } catch (IOException e) { //例外処理
